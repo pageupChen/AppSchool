@@ -26,7 +26,7 @@
             android:name="com.app.activity.MassActivity"
             android:label="@string/title_activity_mass" />
         <activity android:name="com.app.activity.RegisterActivity" />
-        <activity android:name="com.app.activity.InitializeActivity"></activity>
+        <activity android:name="com.app.activity.InitializeActivity" />
         <activity android:name="com.app.activity.ClubRegisterActivity" />
         <activity android:name="com.app.activity.sendDynamicStateActivity" />
         <activity android:name="com.app.activity.showImageActivity" />
@@ -58,7 +58,8 @@
         <activity
             android:name="com.foamtrace.photopicker.PhotoPreviewActivity"
             android:theme="@style/PhotoPickerTheme" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name="com.app.activity.Main2Activity"></activity>
     </application>
 
 </manifest>
