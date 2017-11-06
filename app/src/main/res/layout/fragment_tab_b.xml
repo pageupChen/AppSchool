@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+     <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="10dp"
+        >
+    
+	    <EditText 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/advertising_edit"
+	        android:layout_weight="8"
+	        android:hint="搜索"
+	        
+	        />
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/advertising_image"
+	        android:src="@android:drawable/ic_menu_search"
+	        android:layout_weight="1"
+	        />
+    
+	    
+    </LinearLayout>
+    
+     <FrameLayout  
+        android:layout_width="match_parent"  
+        android:layout_height="95dip" >
+  
+        <android.support.v4.view.ViewPager  
+            android:id="@+id/myViewPager"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent" />  
+  
+        <LinearLayout  
+            android:layout_width="match_parent"  
+            android:layout_height="35dip"  
+            android:layout_gravity="bottom"
+            android:gravity="center"  
+            android:orientation="horizontal"
+            android:id="@+id/myLinearLayout" >  
+    
+              
+        </LinearLayout>  
+    </FrameLayout>  
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:orientation="horizontal"
+         android:id="@+id/discover_linearLayout"
+         
+         >
+         <ListView 
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:id="@+id/discover_list"
+             
+             />
+         <FrameLayout 
+             android:id="@+id/discover_content"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="3"
+             />
+     </LinearLayout>
+
+</LinearLayout>

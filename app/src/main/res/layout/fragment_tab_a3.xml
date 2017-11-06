@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_fraA3_ListView"
+
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:id="@+id/home_fraA3_contactHeader_TextView"
+            android:layout_gravity="center"
+
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:visibility="invisible"/>
+
+        <com.app.view.SideBar
+            android:id="@+id/side_bar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+</LinearLayout>

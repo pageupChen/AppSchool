@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+    >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	
+        >
+    
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mass_edit"
+        android:layout_weight="8"
+        android:hint="请输入您要找的社团的名称"
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mass_image"
+        android:src="@android:drawable/ic_menu_search"
+        android:layout_weight="1"
+        />
+    
+    </LinearLayout>
+    
+    <ExpandableListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mass_list"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        />
+    
+    <ExpandableListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mass_list2"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        />
+
+</LinearLayout>

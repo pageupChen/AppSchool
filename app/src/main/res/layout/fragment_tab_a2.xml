@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:background="@drawable/search"
+            android:textSize="20sp"
+            android:textColor="@color/colorFont2"
+            android:padding="5sp"
+            android:hint="点击此处搜索社团..."
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:id="@+id/home_fragA2_search_EditView"
+            />
+
+
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_fragA2_smartRefreshLayout"
+
+    >
+    <com.scwang.smartrefresh.layout.header.ClassicsHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_fragA2_Header"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_fragA2_recyclerView"
+        android:background="@color/background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_fragA2_footer"
+        />
+
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

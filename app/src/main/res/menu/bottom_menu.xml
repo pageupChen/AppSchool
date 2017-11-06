@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/item1"
+    android:enabled="true"
+    android:icon="@mipmap/ic_third"
+    android:title="HOME"
+
+    />
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:icon="@mipmap/ic_fourth"
+        android:title="TEAM"
+        />
+    <item
+        android:id="@+id/item3"
+        android:enabled="true"
+        android:icon="@mipmap/ic_seventh"
+        android:title="ME"
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/item4"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@android:drawable/ic_btn_speak_now"-->
+        <!--android:title="我"-->
+        <!--/>-->
+
+
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tab_c_header_circleImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈哈哈哈哈哈哈哈哈"
+        android:id="@+id/tab_c_name_textView"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的昵称"
+        android:id="@+id/tab_c_sign_textView"
+        android:layout_above="@id/tab_c_name_textView"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:id="@+id/tab_c_out_textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+</RelativeLayout>

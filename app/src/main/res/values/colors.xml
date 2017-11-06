@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#63aeff</color>
+    <color name="colorPrimaryDark">#63aeff</color>
+    <color name="colorAccent">#63eeff</color>
+    <color name="colorFont">#ffffff</color>
+    <color name="background">#f4f4f4</color>
+    <color name="gap">#00ff00</color>
+    <color name="colorFont2">#000000</color>
+    <color name="photopicker_background">#181819</color>
+</resources>

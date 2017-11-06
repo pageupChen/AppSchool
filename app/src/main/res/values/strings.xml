@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">AppProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mass">MassActivity</string>
+
+    <string-array name="school_names">
+        <item>广东水利电力职业技术学院</item>
+        <item>中山大学</item>
+        <item>暨南大学</item>
+        <item>华南理工大学</item>
+        <item>华南师范大学</item>
+        <item>深圳大学</item>
+        <item>广东石油化工学院</item>
+        <item>佛山科学技术学院</item>
+        <item>广东外语外贸大学</item>
+        <item>广东商学院</item>
+        <item>广东工业大学</item>
+        <item>广东警官学院</item>
+        <item>广州中医药大学</item>
+        <item>广州医学院</item>
+        <item>广东技术师范学院</item>
+        <item>广东白云学院</item>
+        <item>湛江师范学院</item>
+        <item>广东工贸职业技术学院</item>
+        <item>深圳职业技术学院</item>
+        <item>广州大学市政技术学院</item>
+    </string-array>
+    <string-array name="school_atti">
+        <item>全部</item>
+        <item>活动</item>
+        <item>求助</item>
+        <item>交易</item>
+        <item>招新</item>
+    </string-array>
+    <string-array name="mass_names">
+        <item>唱歌</item>
+        <item>武术</item>
+        <item>跆拳道</item>
+        <item>象棋</item>
+        <item>溜冰</item>
+    </string-array>
+
+    <string-array name="discover_array">
+        <item>全国热门社团</item>
+        <item>拉赞助</item>
+        <item>借物资</item>
+        <item>吃喝玩乐</item>
+        <item>约运动</item>
+        <item>线上活动</item>
+    </string-array>
+
+
+    <string-array name="masss_names">
+        <item>啊1</item>
+        <item>啊2</item>
+        <item>吧1</item>
+        <item>吧2</item>
+        <item>寸1</item>
+        <item>寸2</item>
+        <item>的1</item>
+        <item>的2</item>
+        <item>额1</item>
+        <item>额2</item>
+        <item>发1</item>
+        <item>发2</item>
+        <item>个1</item>
+        <item>个2</item>
+        <item>好1</item>
+        <item>好2</item>
+        <item>i1</item>
+        <item>i2</item>
+        <item>就1</item>
+        <item>就2</item>
+        <item>看1</item>
+        <item>看2</item>
+        <item>了1</item>
+        <item>了2</item>
+        <item>吗1</item>
+        <item>吗2</item>
+        <item>你1</item>
+        <item>你2</item>
+        <item>噢1</item>
+        <item>噢2</item>
+        <item>片1</item>
+        <item>片2</item>
+        <item>去1</item>
+        <item>去2</item>
+        <item>日1</item>
+        <item>日2</item>
+        <item>是1</item>
+        <item>是2</item>
+        <item>他1</item>
+        <item>他2</item>
+        <item>u1</item>
+        <item>u2</item>
+        <item>v1</item>
+        <item>v2</item>
+        <item>我1</item>
+        <item>我2</item>
+        <item>想1</item>
+        <item>想2</item>
+        <item>有1</item>
+        <item>有2</item>
+        <item>在1</item>
+        <item>在2</item>
+
+
+    </string-array>
+
+</resources>

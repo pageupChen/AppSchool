@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/mass_loginEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/mass_loginText"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/mass_loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mass_loginEdit"
+        android:layout_alignBottom="@+id/mass_loginEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:text="姓名:" />
+
+    <EditText
+        android:id="@+id/mass_sexEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mass_sex"
+        android:layout_alignBottom="@+id/mass_sex"
+        android:layout_alignLeft="@+id/mass_loginEdit"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/mass_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mass_loginText"
+        android:layout_below="@+id/mass_loginEdit"
+        android:layout_marginTop="16dp"
+        android:text="性别:" />
+
+    <TextView
+        android:id="@+id/mass_majorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mass_sex"
+        android:layout_below="@+id/mass_sexEdit"
+        android:layout_marginTop="21dp"
+        android:text="系别专业:" />
+
+    <EditText
+        android:id="@+id/mass_majorEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mass_majorText"
+        android:layout_alignBottom="@+id/mass_majorText"
+        android:layout_toRightOf="@+id/mass_majorText"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_below="@+id/mass_majorEdit"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/mass_majorEdit"
+        android:text="" />
+
+</RelativeLayout>

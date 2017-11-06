@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sayDynamicActivity_toolBar"
+        app:title="评论动态"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#ffffff"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_below="@id/sayDynamicActivity_toolBar"
+        android:id="@+id/sayDynamicActivity_smartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:background="@color/background"
+
+        >
+
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/RefreshHeader"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+        <!--用此方法可自定义刷新头-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/sayDynamicActivity_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </com.scwang.smartrefresh.layout.footer.ClassicsFooter>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="#ffffff"
+
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:id="@+id/sayDynamicActivity_editText"
+            android:layout_height="wrap_content"
+            android:hint="请输入要评论的内容..."
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="发送"
+            android:textColor="@color/colorFont2"
+            android:gravity="center"
+            android:id="@+id/sayDynamicActivity_send_textView"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
